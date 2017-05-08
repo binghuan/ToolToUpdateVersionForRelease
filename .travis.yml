@@ -1,0 +1,8 @@
+language: php
+
+env:
+  - DEPLOY_TAG=1.1.18-preprod
+
+php:
+    - 5.5
+    - 5.6
