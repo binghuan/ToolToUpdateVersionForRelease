@@ -1,7 +1,7 @@
 language: php
 
 env:
-  - DEPLOY_TAG=1.1.27-preprod
+  - DEPLOY_TAG=1.1.28-preprod
 
 php:
     - 5.5
