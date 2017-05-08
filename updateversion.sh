@@ -11,7 +11,7 @@ currenctBranch=$(git branch | grep \* | cut -d ' ' -f2)
 targetStage=$1
 targetBranch=$2
 
-git pull origin "$targetBranch";
+git checkout "$targetBranch";
 
 deployEnv=""
 if [ "$targetBranch" == "ufo-v3" ]; then
