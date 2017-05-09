@@ -12,6 +12,7 @@ targetStage=$1
 targetBranch=$2
 
 git checkout "$targetBranch";
+git pull
 
 deployEnv=""
 if [ "$targetBranch" == "ufo-v3" ]; then
